@@ -12,7 +12,7 @@ import {
   FaChevronDown,
   FaBars,
 } from "react-icons/fa";
-import "./Sidebar.css";
+import "./sidebar.css";
 
 const Sidebar = () => {
   const [openMenu, setOpenMenu] = useState(null);

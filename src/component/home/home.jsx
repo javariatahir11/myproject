@@ -1,4 +1,4 @@
-import "./Home.css";
+import "./home.css";   ///
 import { FaBars, FaSearch, FaBell, FaUser, FaMoon, FaSun } from "react-icons/fa";
 import DashboardCenter from "../DashboardCenter/DashboardCenter";
 import { TiBook } from "react-icons/ti";
