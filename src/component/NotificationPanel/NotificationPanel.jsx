@@ -1,6 +1,11 @@
 import React, { useState } from "react";
 import { FaBell } from "react-icons/fa";
 import "./NotificationPanel.css";
+import img from "./man.jpg";
+
+
+
+
 
 function NotificationPanel() {
   const [open, setOpen] = useState(false);
@@ -48,7 +53,7 @@ function NotificationPanel() {
         <h4 className="title">Activities</h4>
 
         <div className="item">
-          <img src="https://i.pravatar.cc/30?img=1" alt="avatar" />
+          <img src={img} alt="avatar" />
           <div>
             <p>Changed the style.</p>
             <small>Just now</small>
@@ -56,7 +61,7 @@ function NotificationPanel() {
         </div>
 
         <div className="item">
-          <img src="https://i.pravatar.cc/30?img=2" alt="avatar" />
+          <img src={img} alt="avatar" />
           <div>
             <p>Released a new version.</p>
             <small>59 minutes ago</small>
@@ -66,21 +71,21 @@ function NotificationPanel() {
 
 
         <div className="item">
-           <img src="https://i.pravatar.cc/30?img=3" alt="" /> 
+           <img src={img} alt="avatar" />
         <div>
            <p>Submitted a bug.</p> 
            <small>12 hours ago</small> 
            </div> 
            </div>
          <div className="item">
-           <img src="https://i.pravatar.cc/30?img=4" alt="" />
+          <img src={img} alt="avatar" />
             <div>
                <p>Modified data in Page X.</p>
                 <small>Today, 11:59 AM</small>
                  </div> 
                  </div> 
          <div className="item">
-          <img src="https://i.pravatar.cc/30?img=5" alt="" />
+         <img src={img} alt="avatar" />
            <div>
              <p>Deleted a page in Project X.</p> 
              <small>Feb 2, 2026</small>
@@ -89,21 +94,24 @@ function NotificationPanel() {
         <h4 className="title">Contacts</h4>
 
         <div className="contact">
-          <img src="https://i.pravatar.cc/30?img=6" alt="avatar" />
+          <img src={img} alt="avatar" />
           <span>Natali Craig</span>
         </div>
 
         <div className="contact">
-          <img src="https://i.pravatar.cc/30?img=7" alt="avatar" />
+       <img src={img} alt="avatar" />
           <span>Drew Cano</span>
         </div>
 
         <div className="contact">
-          <img src="https://i.pravatar.cc/30?img=8" alt="avatar" />
+         <img src={img} alt="avatar" />
           <span>Andi Lane</span>
         </div>
 
-        <div className="contact"> <img src="https://i.pravatar.cc/30?img=8" alt="" /> <span>Andi Lane</span> </div> <div className="contact"> <img src="https://i.pravatar.cc/30?img=9" alt="" /> <span>Koray Okumus</span> </div> <div className="contact"> <img src="https://i.pravatar.cc/30?img=10" alt="" /> <span>Kate Morrison</span> </div> <div className="contact"> <img src="https://i.pravatar.cc/30?img=11" alt="" /> <span>Melody Macy</span> </div>
+        <div className="contact"><img src={img} alt="avatar" /> <span>Andi Lane</span> </div>
+         <div className="contact"> <img src={img} alt="avatar" /> <span>Koray Okumus</span> </div> 
+         <div className="contact"> <img src={img} alt="avatar" /> <span>Kate Morrison</span> </div>
+          <div className="contact"> <img src={img} alt="avatar" /> <span>Melody Macy</span> </div>
       </div>
     </>
   );
